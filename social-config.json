@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "twitter": {
+      "handle": "@aitoolshub",
+      "auto_post": true,
+      "posting_times": [
+        "09:00",
+        "14:00",
+        "18:00"
+      ],
+      "content_types": [
+        "blog_posts",
+        "product_reviews",
+        "tips"
+      ]
+    },
+    "telegram": {
+      "channel": "AI Tools Hub",
+      "auto_post": true,
+      "posting_times": [
+        "09:00",
+        "15:00"
+      ],
+      "content_types": [
+        "blog_posts",
+        "product_reviews"
+      ]
+    }
+  },
+  "email": {
+    "provider": "Mailchimp",
+    "plan": "Free (500 subscribers)",
+    "auto_welcome": true,
+    "weekly_digest": true
+  }
+}
